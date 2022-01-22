@@ -14,18 +14,115 @@
     <!-- Inserindo o ícone da aba -->
     <link href="../img/favicon.ico" rel="shortcut icon">
     <!-- Bootstrap, linkando a folha de estilo em Cascata do Bootstrap no documento -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- Font Awesome. Crossorigin utilizando o recurso Cross com o corpartilhamento de recursos com orignes diferentes anonimamente-->
     <script src="https://kit.fontawesome.com/12f6c26e59.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    
+    <!-- Cabeçalho da página -->
+    <header>
+        <!-- Div Container classe do Bootstrap, melhorando a visualização da página -->
+        <div class="container" id="nav-container">
+            <!-- Navegação da página -->
+            <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
+                <!-- Logo da página -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="../img/logo-rsd.png" alt="Logo com as letras RSD">
+                </a>
+                <!-- Botão collapse, menu hambúrger -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+                    aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Divi que será recolhida quando o display não conseguir renderizar todo o conteúdo em uma linha -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <!-- Div com os itens do menu -->
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" id="valores" href="#">Valores</span></a>
+                        <a class="nav-item nav-link" id="esg" href="#">ESG</a>
+                        <a class="nav-item nav-link" id="acessoRh" href="https://www.google.com" target="_blank">Portal
+                            RH</a>
+                        <!-- Div com itens renderizados com dropdown -->
+                        <div class="dropdown show">
+                            <!--Primiro link do Dropdown, para abrir o menu suspenso.-->
+                            <a class="btn dropdown-toggle" href="#" role="button" id="dropdwonSgp"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SGP</a>
+                            <!--Chamar o id, para apresentar os itens em Dropdown, com os links-->
+                            <div class="dropdown-menu" aria-labelledby="dropdwonSgp">
+                                <a class="dropdown-item" href=""
+                                    download="">ATENDIMENTO AO CLIENTE</a>
+                                <a class="dropdown-item" href=""
+                                    download="">COMERCIAL</a>
+                                <a class="dropdown-item" href=""
+                                    download="">CONTABILIDADE SOCIETÁRIA</a>
+                                <a class="dropdown-item" href=""
+                                    download="">CONTROLADORIA</a>
+                                <a class="dropdown-item" href=""
+                                    download="">DEPARTAMENTO PESSOAL</a>
+                                <a class="dropdown-item" href=""
+                                    download="">DIRETORIA COMERCIAL</a>
+                                <a class="dropdown-item" href=""
+                                    download="">FINANCEIRO</a>
+                                <a class="dropdown-item" href="" download="">FISCAL</a>
+                                <a class="dropdown-item" href=""
+                                    download="">INCORPORAÇÃO</a>
+                                <a class="dropdown-item" href="" download="">MANUAL</a>
+                                <a class="dropdown-item" href=""
+                                    download="">MARKETING</a>
+                                <a class="dropdown-item" href=""
+                                    download="">NOVOS NEGÓCIOS</a>
+                                <a class="dropdown-item" href="" download="">TI</a>
+                                <!-- Fechamento da div contendo os itens em dropdown -->
+                            </div>
+                            <!-- Fechamento da div dropdown -->
+                        </div>
+                        <!-- Div com itens renderizados com dropdown -->
+                        <div class="dropdown show">
+                            <!--Dropdown, para abrir o menu suspenso.-->
+                            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownEmpresas"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pasta Empresas</a>
+                            <!--Chamar o id, para apresentar os itens em Dropdown, com os links-->
+                            <div class="dropdown-menu" aria-labelledby="dropdownEmpresas">
+                                <a class="dropdown-item" href=""
+                                    download="">Empresa 01</a>
+                                <a class="dropdown-item" href=""
+                                    download="">New Business</a>
+                                <a class="dropdown-item" href=""
+                                    download="">M Solution</a>
+                                <a class="dropdown-item" href=""
+                                    download="">CIA Empresas 2</a>
+                                <a class="dropdown-item" href=""
+                                    download="">Empreas novas de 2022</a>
+                                <a class="dropdown-item" href=""
+                                    download="">More Business</a>
+                                <!-- Fechamento da div contendo os itens em dropdown -->
+                            </div>
+                            <!-- Fechamento da div dropdown -->
+                        </div>
+                        <a class="nav-item nav-link" href="#contactForm">Canal Confidencial</a>
+                        <!-- Fechamento da div dos itens do menu -->
+                    </div>
+                    <!-- Fechamento da div que agrupa os itens dentro do botão hambúrger -->
+                </div>
+            </nav>
+            <!-- Fechamento da tag container -->
+        </div>
+    </header>
     <!-- JavaScript -->
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- JS do Bootstrap -->
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 
 </body>
 
