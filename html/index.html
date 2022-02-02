@@ -51,28 +51,18 @@
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SGP</a>
                             <!--Chamar o id, para apresentar os itens em Dropdown, com os links-->
                             <div class="dropdown-menu" aria-labelledby="dropdwonSgp">
-                                <a class="dropdown-item" href=""
-                                    download="">ATENDIMENTO AO CLIENTE</a>
-                                <a class="dropdown-item" href=""
-                                    download="">COMERCIAL</a>
-                                <a class="dropdown-item" href=""
-                                    download="">CONTABILIDADE SOCIETÁRIA</a>
-                                <a class="dropdown-item" href=""
-                                    download="">CONTROLADORIA</a>
-                                <a class="dropdown-item" href=""
-                                    download="">DEPARTAMENTO PESSOAL</a>
-                                <a class="dropdown-item" href=""
-                                    download="">DIRETORIA COMERCIAL</a>
-                                <a class="dropdown-item" href=""
-                                    download="">FINANCEIRO</a>
+                                <a class="dropdown-item" href="" download="">ATENDIMENTO AO CLIENTE</a>
+                                <a class="dropdown-item" href="" download="">COMERCIAL</a>
+                                <a class="dropdown-item" href="" download="">CONTABILIDADE SOCIETÁRIA</a>
+                                <a class="dropdown-item" href="" download="">CONTROLADORIA</a>
+                                <a class="dropdown-item" href="" download="">DEPARTAMENTO PESSOAL</a>
+                                <a class="dropdown-item" href="" download="">DIRETORIA COMERCIAL</a>
+                                <a class="dropdown-item" href="" download="">FINANCEIRO</a>
                                 <a class="dropdown-item" href="" download="">FISCAL</a>
-                                <a class="dropdown-item" href=""
-                                    download="">INCORPORAÇÃO</a>
+                                <a class="dropdown-item" href="" download="">INCORPORAÇÃO</a>
                                 <a class="dropdown-item" href="" download="">MANUAL</a>
-                                <a class="dropdown-item" href=""
-                                    download="">MARKETING</a>
-                                <a class="dropdown-item" href=""
-                                    download="">NOVOS NEGÓCIOS</a>
+                                <a class="dropdown-item" href="" download="">MARKETING</a>
+                                <a class="dropdown-item" href="" download="">NOVOS NEGÓCIOS</a>
                                 <a class="dropdown-item" href="" download="">TI</a>
                                 <!-- Fechamento da div contendo os itens em dropdown -->
                             </div>
@@ -85,18 +75,12 @@
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pasta Empresas</a>
                             <!--Chamar o id, para apresentar os itens em Dropdown, com os links-->
                             <div class="dropdown-menu" aria-labelledby="dropdownEmpresas">
-                                <a class="dropdown-item" href=""
-                                    download="">Empresa 01</a>
-                                <a class="dropdown-item" href=""
-                                    download="">New Business</a>
-                                <a class="dropdown-item" href=""
-                                    download="">M Solution</a>
-                                <a class="dropdown-item" href=""
-                                    download="">CIA Empresas 2</a>
-                                <a class="dropdown-item" href=""
-                                    download="">Empreas novas de 2022</a>
-                                <a class="dropdown-item" href=""
-                                    download="">More Business</a>
+                                <a class="dropdown-item" href="" download="">Empresa 01</a>
+                                <a class="dropdown-item" href="" download="">New Business</a>
+                                <a class="dropdown-item" href="" download="">M Solution</a>
+                                <a class="dropdown-item" href="" download="">CIA Empresas 2</a>
+                                <a class="dropdown-item" href="" download="">Empreas novas de 2022</a>
+                                <a class="dropdown-item" href="" download="">More Business</a>
                                 <!-- Fechamento da div contendo os itens em dropdown -->
                             </div>
                             <!-- Fechamento da div dropdown -->
@@ -110,6 +94,63 @@
             <!-- Fechamento da tag container -->
         </div>
     </header>
+
+    <!-- Conteúdo principal da página -->
+    <main>
+        <!-- Classe que irá ocupar a largura 100% da página -->
+        <div class="container-fluid">
+            <!-- Divi que recebe o carossel, com a classe nativa do Bootstrap -->
+            <div id="sliderPrincipal" class="carousel" data-ride="carousel">
+                <!-- Botões de navegações do carrousel, lista não ordenada-->
+                <ol class="carousel-indicators">
+                    <li data-target="#sliderPrincipal" data-slide-to="0" class="active"></li>
+                    <li data-target="#sliderPrincipal" data-slide-to="1"></li>
+                    <li data-target="#sliderPrincipal" data-slide-to="2"></li>
+                    <li data-target="#sliderPrincipal" data-slide-to="3"></li>
+                </ol>
+
+                <!-- Adicionando o conteúdo interno do carrousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+
+                        <!-- Tag que inclui uma imagem na página -->
+                        <img src="../img/banner01.jpg" alt="Fachada do prédio visto de baixo para cima">
+                        <div class="carousel-caption d-md-block">
+                            <h2>Novidades, a nova sede está em fase de finalização.</h2>
+                            <p>A <strong>RSD</strong> está empolgada em informar que a nova sede está finalizando e será
+                                uma honra podermos rever todos em um novo espaço.</p>
+                            <a href="https:www.google.com" target="_blank">Para saber mais, clique aqui.</a>
+                        </div>
+                        <!-- Fechamento do carousel-item -->
+                    </div>
+                    <!-- Iten interno do carossel, sequência das imagens -->
+                    <div class="carousel-item">
+                        <img src="../img/banner02.jpg" alt="Imagem da construção interna de um novo empreenimento">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/banner03.jpg"
+                            alt="Mesa com laptop, monito, telefone fixo e porta canetas, representando o home office">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/banner04 - AniversariantesDoMes.jpg"
+                            alt="Imagem com o fundo azul, com o título dos aniversariantes do mês, junto com uma lista contendo o dia e o nome dos aniversariantes.">
+                    </div>
+
+                    <!-- Indicadores para navegação Carousel -->
+                    <a href="#sliderPrincipal" class="carousel-control-prev" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a href="#sliderPrincipal" class="carousel-control-next" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
+                    <!-- Fechamento da div com a classe="carousel-inner" -->
+                </div>
+                <!-- Fechameno da divisão com id="sliderPrincipal" -->
+            </div>
+            <!-- Fechameno da divisão do container-fluid -->
+        </div>
+        <!-- Fechamento da tag de conteúdo principal -->
+    </main>
     <!-- JavaScript -->
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
