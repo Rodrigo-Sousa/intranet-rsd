@@ -4,7 +4,7 @@
   <img src="./arquivosReadme/logo-rsd-sem-fundo.png">
 </p>
 
-![Badge em Desenvolvimento](https://img.shields.io/badge/status-desenvolvimento-green)
+![Badge em Desenvolvimento](https://img.shields.io/badge/status-desenvolvendo-green)
 
 * [Título e imagem do README.md](#intranet---rsd)
 * [Descrição do Projeto](#descrição-do-projeto)
