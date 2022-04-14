@@ -1,4 +1,4 @@
-# Intranet - RSD.
+# Intranet - Rodrigo Sousa Developer.
 
 <p align="center">
   <img src="./arquivosReadme/logo-rsd-sem-fundo.png">
