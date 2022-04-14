@@ -323,7 +323,7 @@ Alinhando todo o conteúdo ao centro, adicionando uma margem para descolar uma c
     color: #65DAF9;
     animation: bounce 1s;
 }
-#site-setin {
+#site-rsd {
     text-align: center;
 }
 @keyframes bounce {
