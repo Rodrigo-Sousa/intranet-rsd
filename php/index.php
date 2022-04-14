@@ -42,7 +42,7 @@
                 no qual já usaremos as classes do bootstrap, no qual estaremos fixando a nossa navegação no top.-->
             <nav class="navbar navbar-expand-lg fixed-top">
                 <!--inserindo o logo da página-->
-                <a href="index.html" class="navbar-brand">
+                <a href="index.php" class="navbar-brand">
                     <img id="logo" src="../img/logo-rsd.png" alt="letras RSD">
                 </a>
                 <!--Para o menu de hambúrger, aparecendo ao usufruir no mobile.
