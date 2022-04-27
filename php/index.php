@@ -591,7 +591,7 @@
             </ul>
         </div>
         <div id="footer-bottom">
-            <p>&copy;2021 - TI RSD | Developed by: Tecnologia da Informação RSD</p>
+            <p>&copy;2022 - TI RSD | Developed by: Tecnologia da Informação RSD</p>
         </div>
     </footer>
     <!--Boa prática, CSS no head, e o JS no body da página.-->
