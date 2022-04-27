@@ -40,7 +40,7 @@
         <div class="container" id="nav-container">
             <!--tag semântica da base de navegação da page.
                 no qual já usaremos as classes do bootstrap, no qual estaremos fixando a nossa navegação no top.-->
-            <nav class="navbar navbar-expand-lg fixed-top">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
                 <!--inserindo o logo da página-->
                 <a href="index.php" class="navbar-brand">
                     <img id="logo" src="../img/logo-rsd.png" alt="letras RSD">
