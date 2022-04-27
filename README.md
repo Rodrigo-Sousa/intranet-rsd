@@ -18,6 +18,7 @@
    * [Aniversariantes do mês](#aniversariantes-do-mês)
    * [Canal Condifencial](#canal-confidencial)
    * [Rodapé](#rodapé)
+* [Login - Canal Confidencial](#login---canal-confidencial)
 
 
 * [Referências](#referências)
@@ -100,6 +101,20 @@ Ao preencher os campos e clicar em **Enviar**, será apresentando uma mensgem fa
 Aqui temos o rodapé da página, com os links para continuar acompanhando a empresa nas mídias sociais. Contendo o ano e o nome da equipe que desenvolveu a página.
 
 ![Rodapé](./arquivosReadme/rodape.png)
+
+### Login - Canal Confidencial
+
+Para acessar os conteúdos que foram enviados pelo **Canal Confidencial**, temos página desenvolvida em PHP com validações, para só serem acessadas se o usuário for autenticado, inserindo o usuário e senha que estiver cadastrado no Banco de Dados (MySQL).
+
+![Login - Canal Confidencial](./arquivosReadme/login-canal-confidencial1.png)
+
+Painel após logar, para poder gerar o relatório
+
+![Login - Painel - Canal Confidencial](./arquivosReadme/login-canal-confidencial.png)
+
+Ao clicar no botão para relatório, irá ser aberto uma outra aba listando todas as mensagem que foram recebidas pelo banco de dados. Com assunto, mensagem e data e hora do envio.
+
+![Login - Relatório - Canal Confidencial](./arquivosReadme/login-canal-confidencial2.png)
 
 #### Referências 
 @matheusbattisti, no qual explica como utilizar o framework do `Bootstrap`, no canal do YouTube [Curso Bootstrap](https://www.youtube.com/watch?v=SmQMZ36hJJY&list=PLnDvRpP8Bnexu5wvxogy6N49_S5Xk8Cze).
