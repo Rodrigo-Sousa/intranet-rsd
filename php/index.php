@@ -14,19 +14,13 @@
     <!--Fonte da página-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
     <!--Linkando Bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- CSS Interno -->
     <link rel="stylesheet" href="../css/styles-intranet.css">
     <!--Scripts correspondente ao Bootstrap-->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <!--Fonte Awesome-->
     <script src="https://kit.fontawesome.com/12f6c26e59.js" crossorigin="anonymous"></script>
     <!--Parallax-->
@@ -48,8 +42,7 @@
                 <!--Para o menu de hambúrger, aparecendo ao usufruir no mobile.
                     Usando atributos no bootstrap-->
                 <!-- Botão collapse, menu hambúrger -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
-                    aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <!--Lista de seções do nosso site.-->
@@ -57,40 +50,27 @@
                     <!--Os links do nosso menu-->
                     <div class="navbar-nav">
                         <!-- Portal para o site da ADP (folha de pagamento) -->
-                        <a href="https://www.adpweb.com.br" target="_blank" class="nav-item nav-link"
-                            id="services-menu">Acesso ADP</a>
+                        <a href="https://www.adpweb.com.br" target="_blank" class="nav-item nav-link" id="services-menu">Acesso ADP</a>
                         <!--Criando a divisão do dropdown - para a inserção dos botões no menu SGP-->
                         <div class="dropdown show">
                             <!--Primiro link do Dropdown, para abrir o menu suspenso.-->
-                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdown-menu-link"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SGP</a>
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdown-menu-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SGP</a>
                             <div>
                                 <!--Chamar o id, para apresentar os itens em Dropdown, com os links-->
                                 <div class="dropdown-menu" aria-labelledby="dropdown-menu-link">
-                                    <a class="dropdown-item" href="../doc/SGP/Atendimento ao Cliente.rar"
-                                        download="Atendimento ao Cliente.rar">Atendimento ao Cliente</a>
-                                    <a class="dropdown-item" href="../doc/SGP/Comercial.rar"
-                                        download="Comercial.rar">Comercial</a>
-                                    <a class="dropdown-item" href="../doc/SGP/Contabilidade Societária.rar"
-                                        download="Contabilidade Societária.rar">Contabilidade Societária</a>
-                                    <a class="dropdown-item" href="../doc/SGP/Controladoria.rar"
-                                        download="Controladoria.rar">Controladoria</a>
-                                    <a class="dropdown-item" href="../doc/SGP/Departamento Pessoal.rar"
-                                        download="Departamento Pessoal.rar">Departamento Pessoal</a>
-                                    <a class="dropdown-item" href="../doc/SGP/Diretoria Comercial.rar"
-                                        download="Diretoria Comercial.rar">Diretoria Comercial</a>
-                                    <a class="dropdown-item" href="../doc/SGP/Financeiro.rar"
-                                        download="Financeiro.rar">Financeiro</a>
+                                    <a class="dropdown-item" href="../doc/SGP/Atendimento ao Cliente.rar" download="Atendimento ao Cliente.rar">Atendimento ao Cliente</a>
+                                    <a class="dropdown-item" href="../doc/SGP/Comercial.rar" download="Comercial.rar">Comercial</a>
+                                    <a class="dropdown-item" href="../doc/SGP/Contabilidade Societária.rar" download="Contabilidade Societária.rar">Contabilidade Societária</a>
+                                    <a class="dropdown-item" href="../doc/SGP/Controladoria.rar" download="Controladoria.rar">Controladoria</a>
+                                    <a class="dropdown-item" href="../doc/SGP/Departamento Pessoal.rar" download="Departamento Pessoal.rar">Departamento Pessoal</a>
+                                    <a class="dropdown-item" href="../doc/SGP/Diretoria Comercial.rar" download="Diretoria Comercial.rar">Diretoria Comercial</a>
+                                    <a class="dropdown-item" href="../doc/SGP/Financeiro.rar" download="Financeiro.rar">Financeiro</a>
                                     <a class="dropdown-item" href="../doc/SGP/Fiscal.rar" download="Fiscal.rar">Fiscal</a>
-                                    <a class="dropdown-item" href="../doc/SGP/Incorporação.rar"
-                                        download="Incorporação.rar">Incorporação</a>
+                                    <a class="dropdown-item" href="../doc/SGP/Incorporação.rar" download="Incorporação.rar">Incorporação</a>
                                     <a class="dropdown-item" href="../doc/SGP/Manual.rar" download="Manual.rar">Manual</a>
-                                    <a class="dropdown-item" href="../doc/SGP/Marketing.rar"
-                                        download="Marketing.rar">Marketing</a>
-                                    <a class="dropdown-item" href="../doc/SGP/Novos Negócios.rar"
-                                        download="Novos Negócios.rar">Novos Negócios</a>
-                                    <a class="dropdown-item" href="../doc/SGP/Técnica.rar"
-                                        download="Técnica.rar">Técnica</a>
+                                    <a class="dropdown-item" href="../doc/SGP/Marketing.rar" download="Marketing.rar">Marketing</a>
+                                    <a class="dropdown-item" href="../doc/SGP/Novos Negócios.rar" download="Novos Negócios.rar">Novos Negócios</a>
+                                    <a class="dropdown-item" href="../doc/SGP/Técnica.rar" download="Técnica.rar">Técnica</a>
                                     <a class="dropdown-item" href="../doc/SGP/TI.rar" download="TI.rar">TI</a>
                                     <!-- Fechamento do os links contido no dropdown  -->
                                 </div>
@@ -102,27 +82,18 @@
                         <!--Criando a divisão do dropdown - para a inserção dos botões no menu Nova Marca-->
                         <div class="dropdown show">
                             <!--Primiro link do Dropdown, para abrir o menu suspenso.-->
-                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdown-form-padroes"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Formulários
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdown-form-padroes" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Formulários
                                 Padrões</a>
                             <div>
                                 <!--Chamar o id, para apresentar os itens em Dropdown, com os links-->
                                 <div class="dropdown-menu" aria-labelledby="dropdown-form-padroes">
-                                    <a class="dropdown-item"
-                                        href="./../doc/FORMULÁRIOS PADRÕES/DECLARAÇÃO DE SAUDE.pdf.pdf" target="_blank"
-                                        download="DECLARAÇÃO DE SAUDE">DECLARAÇÃO DE SAUDE</a>
-                                    <a class="dropdown-item" href="../doc/FORMULÁRIOS PADRÕES/FICHA DE ADESÃO ODONTO.pdf"
-                                        target="_blank" download="FICHA DE ADESÃO ODONTO.pdf">FICHA DE ADESÃO ODONTO</a>
-                                    <a class="dropdown-item"
-                                        href="../doc/FORMULÁRIOS PADRÕES/FICHA DE CONTROLE DE EPIs MODELO.../doc"
-                                        download="FICHA DE CONTROLE DE EPIs MODELO.../doc">FICHA DE CONTROLE DE EPIs
+                                    <a class="dropdown-item" href="./../doc/FORMULÁRIOS PADRÕES/DECLARAÇÃO DE SAUDE.pdf.pdf" target="_blank" download="DECLARAÇÃO DE SAUDE">DECLARAÇÃO DE SAUDE</a>
+                                    <a class="dropdown-item" href="../doc/FORMULÁRIOS PADRÕES/FICHA DE ADESÃO ODONTO.pdf" target="_blank" download="FICHA DE ADESÃO ODONTO.pdf">FICHA DE ADESÃO ODONTO</a>
+                                    <a class="dropdown-item" href="../doc/FORMULÁRIOS PADRÕES/FICHA DE CONTROLE DE EPIs MODELO.../doc" download="FICHA DE CONTROLE DE EPIs MODELO.../doc">FICHA DE CONTROLE DE EPIs
                                         MODELO</a>
-                                    <a class="dropdown-item" href="../doc/FORMULÁRIOS PADRÕES/FICHA FORNECEDOR.xlsm"
-                                        download="FICHA FORNECEDOR.xlsm">FICHA FORNECEDOR</a>
-                                    <a class="dropdown-item" href="../doc/FORMULÁRIOS PADRÕES/JUSTIFICATIVA PONTO.xlsx"
-                                        download="JUSTIFICATIVA PONTO.xlsx">JUSTIFICATIVA PONTO</a>
-                                    <a class="dropdown-item" href="../doc/FORMULÁRIOS PADRÕES/REEMBOLSO.xlsx"
-                                        download="REEMBOLSO.xlsx">REEMBOLSO</a>
+                                    <a class="dropdown-item" href="../doc/FORMULÁRIOS PADRÕES/FICHA FORNECEDOR.xlsm" download="FICHA FORNECEDOR.xlsm">FICHA FORNECEDOR</a>
+                                    <a class="dropdown-item" href="../doc/FORMULÁRIOS PADRÕES/JUSTIFICATIVA PONTO.xlsx" download="JUSTIFICATIVA PONTO.xlsx">JUSTIFICATIVA PONTO</a>
+                                    <a class="dropdown-item" href="../doc/FORMULÁRIOS PADRÕES/REEMBOLSO.xlsx" download="REEMBOLSO.xlsx">REEMBOLSO</a>
                                 </div>
                             </div>
                             <!--Terminado a parte de HTML, as marcações feitas corretas, agora será customizado no CSS a aparência-->
@@ -130,15 +101,12 @@
                         <!--Criando a divisão do dropdown - para a inserção dos botões-->
                         <div class="dropdown show">
                             <!--Primiro link do Dropdown, para abrir o menu suspenso.-->
-                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button"
-                                id="dropdown-pasta-empresa" data-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">Pastas Empresas</a>
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdown-pasta-empresa" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pastas Empresas</a>
                             <div>
                                 <!-- Usnado  Search_Filter Dropdown -->
                                 <div id="meu-dropdown" class="dropdown-menu" aria-labelledby="dropdown-pasta-empresa">
                                     <!-- Campo de pesquisa, com uso da função do JS. -->
-                                    <input type="text" placeholder="Pesquisa a empresa..." id="minha-pesquisa"
-                                        onkeyup="filterFunction()">
+                                    <input type="text" placeholder="Pesquisa a empresa..." id="minha-pesquisa" onkeyup="filterFunction()">
                                     <!--Divisão contendo o embrulho dos links a serem apresentados no dropdown suspenso.-->
                                     <div class="dorpdown-contant-wrapper">
                                         <!--Links para dowloand de arquivos ao serem clicados.-->
@@ -177,29 +145,19 @@
                         <!--Criando a divisão do dropdown - para a inserção dos botões no menu Nova Marca -->
                         <div class="dropdown show">
                             <!--Primiro link do Dropdown, para abrir o menu suspenso.-->
-                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdown-nova-marca"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nova Marca</a>
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdown-nova-marca" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nova Marca</a>
                             <div>
                                 <!--Chamar o id, para apresentar os itens em Dropdown, com os links-->
                                 <div class="dropdown-menu" aria-labelledby="dropdown-nova-marca">
-                                    <a class="dropdown-item" href="../doc/NOVA MARCA/1.LOGOS.rar"
-                                        download="1.LOGOS.rar">LOGOS</a>
-                                    <a class="dropdown-item" href="doc/NOVA MARCA//2.PAPEL TIMBRADO.rar"
-                                        download="2.PAPEL TIMBRADO.rar">PAPEL TIMBRADO</a>
-                                    <a class="dropdown-item" href="doc/NOVA MARCA/3.PPT.rar"
-                                        download="3.PPT.rar">PPT</a>
-                                    <a class="dropdown-item" href="doc/NOVA MARCA/4. ATA DE REUNIÃO.rar"
-                                        download="4. ATA DE REUNIÃO.rar">ATA DE REUNIÃO</a>
-                                    <a class="dropdown-item" href="doc/NOVA MARCA/5. WALLPAPER.rar"
-                                        download="5. WALLPAPER.rar">WALLPAPER</a>
-                                    <a class="dropdown-item" href="doc/NOVA MARCA/6. WALLPAPER VÍDEO CHAMADA.rar"
-                                        download="6. WALLPAPER VÍDEO CHAMADA.rar">WALLPAPER VÍDEO CHAMADA</a>
-                                    <a class="dropdown-item" href="doc/NOVA MARCA/7. ASSINATURA DE EMAIL.rar"
-                                        download="7. ASSINATURA DE EMAIL.rar">ASSINATURA DE EMAIL</a>
-                                    <a class="dropdown-item" href="doc/NOVA MARCA/8. WHATSAPP.rar"
-                                        download="8. WHATSAPP.rar">WHATSAPP</a>
-                                    <a class="dropdown-item" href="doc/NOVA MARCA/9. E-BOOK DE MARCA.rar"
-                                        download="9. E-BOOK DE MARCA.rar">E-BOOK DE MARCA</a>
+                                    <a class="dropdown-item" href="../doc/NOVA MARCA/1.LOGOS.rar" download="1.LOGOS.rar">LOGOS</a>
+                                    <a class="dropdown-item" href="doc/NOVA MARCA//2.PAPEL TIMBRADO.rar" download="2.PAPEL TIMBRADO.rar">PAPEL TIMBRADO</a>
+                                    <a class="dropdown-item" href="doc/NOVA MARCA/3.PPT.rar" download="3.PPT.rar">PPT</a>
+                                    <a class="dropdown-item" href="doc/NOVA MARCA/4. ATA DE REUNIÃO.rar" download="4. ATA DE REUNIÃO.rar">ATA DE REUNIÃO</a>
+                                    <a class="dropdown-item" href="doc/NOVA MARCA/5. WALLPAPER.rar" download="5. WALLPAPER.rar">WALLPAPER</a>
+                                    <a class="dropdown-item" href="doc/NOVA MARCA/6. WALLPAPER VÍDEO CHAMADA.rar" download="6. WALLPAPER VÍDEO CHAMADA.rar">WALLPAPER VÍDEO CHAMADA</a>
+                                    <a class="dropdown-item" href="doc/NOVA MARCA/7. ASSINATURA DE EMAIL.rar" download="7. ASSINATURA DE EMAIL.rar">ASSINATURA DE EMAIL</a>
+                                    <a class="dropdown-item" href="doc/NOVA MARCA/8. WHATSAPP.rar" download="8. WHATSAPP.rar">WHATSAPP</a>
+                                    <a class="dropdown-item" href="doc/NOVA MARCA/9. E-BOOK DE MARCA.rar" download="9. E-BOOK DE MARCA.rar">E-BOOK DE MARCA</a>
                                 </div>
                             </div>
                         </div>
@@ -232,8 +190,7 @@
                     <!--O item do carrousel, com classe do bootstrap que serve para deixar a largura 100%-->
                     <div class="carousel-item active">
                         <a href="https://www.tiktok.com" target="_blank">
-                            <img src="../img/banners/Banners Intranet1.jpg" class="d-block w-100"
-                                alt="TikTok RSD">
+                            <img src="../img/banners/Banners Intranet1.jpg" class="d-block w-100" alt="TikTok RSD">
                         </a>
                     </div>
                     <!--O item do carrousel, com classe do bootstrap que serve para deixar a largura 100%-->
@@ -242,8 +199,7 @@
                     </div>
                     <!--O item do carrousel, com classe do bootstrap que serve para deixar a largura 100%-->
                     <div class="carousel-item">
-                        <img src="../img/banners/Banner Intranet - Aniversariantes.jpg" class="d-block w-100"
-                            alt="Aniversariantes do mês">
+                        <img src="../img/banners/Banner Intranet - Aniversariantes.jpg" class="d-block w-100" alt="Aniversariantes do mês">
                     </div>
                     <!--Setas para navegação do carousel. Lembrando de colocar toda a configuração dentro da tag <a></a>-->
                     <a href="#main-slider" class="carousel-control-prev" role="button" data-slide="prev">
@@ -274,9 +230,7 @@
                             <i class="fas fa-mobile-alt"></i>
                             <h4>Lista de Ramais - RSD</h4>
                             <p>Lista de ramais contendo os nomes, departamentos e números dos nossos colaboradores.</p>
-                            <a class="link-area-importante"
-                                href="../img/ramais.png"
-                                target="_blank">Abrir lista de Ramais</a>
+                            <a class="link-area-importante" href="../img/ramais.png" target="_blank">Abrir lista de Ramais</a>
                         </div>
                         <div class="col-md-4 service-box">
                             <!--inserindo o ícone-->
@@ -348,10 +302,230 @@
                         </div>
                     </div>
                     <span id="site-rsd">
-                        <p>Para maiores informações, acesse: <a href="https://www.google.com"
-                                target="_blank">RSD</a></p>
+                        <p>Para maiores informações, acesse: <a href="https://www.google.com" target="_blank">RSD</a></p>
                     </span>
                 </div>
+            </div>
+            <!--Aniversariantes (aniversáriantes do mês)-->
+            <div id="niver-area">
+                <!--container das seções-->
+                <div class="container">
+                    <!-- Div responsável por separar a apresentação do conteúdo em linhas e colunas -->
+                    <div class="row">
+                        <!-- Apresentação utilizando a classe col-md-12, responsiva nativa do Bootstrap -->
+                        <div class="col-md-12">
+                            <h3 id="niver-title">Aniversariantes do mês</h3>
+                            <!-- fechamento da div col-md-12 -->
+                        </div>
+
+                        <!--Seção de filtros, contendo os botões-->
+                        <div class="col-md-12" id="filter-btn-box">
+                            <!--Primeiro botão estará ativo, (selecionado), e os botões para ser filtrado-->
+                            <button class="main-btn filter-btn active" id="all-btn" hidden>Todos</button>
+                            <button class="main-btn filter-btn" id="jan-btn">Janeiro</button>
+                            <button class="main-btn filter-btn" id="fev-btn">Fevereiro</button>
+                            <button class="main-btn filter-btn" id="mar-btn">Março</button>
+                            <button class="main-btn filter-btn" id="abr-btn">Abril</button>
+                            <button class="main-btn filter-btn" id="mai-btn">Maio</button>
+                            <button class="main-btn filter-btn" id="jun-btn">Junho</button>
+                            <button class="main-btn filter-btn" id="jul-btn">Julho</button>
+                            <button class="main-btn filter-btn" id="ago-btn">Agosto</button>
+                            <button class="main-btn filter-btn" id="set-btn">Setembro</button>
+                            <button class="main-btn filter-btn" id="out-btn">Outubro</button>
+                            <button class="main-btn filter-btn" id="nov-btn">Novembro</button>
+                            <button class="main-btn filter-btn" id="dez-btn">Dezembro</button>
+                            <!-- Fechamento da div que contém os botões dos meses -->
+                        </div>
+
+                        <!--Usando classe com os Id's que são únicos na página
+                            No qual usamos as col-sm, col-md para que seja realizado a responsidade de acordo com as larguras de tela.-->
+                        <div class="col-sm-6 col-md-4 col-lg-3 niver-box janeiro">
+                            <!--Nesta div, trabalharemos as imagnes. Com a class="img-fluid, indica que ela terá 100% da larguratura do pai (fazendo referência a herança)"-->
+                            <figure class="figure">
+                                <img id="muda" src="../img/niver/01-janeiro/euclides2001.jpg" class="figure-img img-fluid" alt="Imagem do rosto do Euclides da cunha de perfil">
+                                <figcaption class="figure-caption"> 20/01 - Euclides da Cunha | <strong class="niver-departamento">TI</strong>
+                                    <p>
+                                        <a class="niver-email" href="mailto:euclidescunha@rsd.com.br?subject=Feliz Aniversário">euclidescunha@rsd.com.br</a>
+                                    </p>
+                                </figcaption>
+                            <!-- Fechamento da tag figure -->
+                            </figure>
+                        <!-- Fechamento da div niver-box janeiro -->
+                        </div>
+
+                        <div class="col-sm-6 col-md-4 col-lg-3 niver-box janeiro">
+                            <!--Nesta div, trabalharemos as imagnes. Com a class="img-fluid, indica que ela terá 100% da larguratura do pai (fazendo referência a herança)"-->
+                            <figure class="figure">
+                                <img id="muda" src="../img/niver/01-janeiro/giovanni0901.jpg" class="figure-img img-fluid" alt="Projeto 1">
+                                <figcaption class="figure-caption"> 09/01 - Giovanni Papini | <strong class="niver-departamento">Marketing</strong>
+                                    <p>
+                                        <a class="niver-email" href="mailto:euclidescunha@rsd.com.br?subject=Feliz Aniversário">euclidescunha@rsd.com.br</a>
+                                    </p>
+                                </figcaption>
+                            <!-- Fechamento da tag figure -->
+                            </figure>
+                        <!-- Fechamento da div niver-box janeiro -->
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-4 col-lg-3 niver-box fevereiro">
+                            <!--Nesta div, trabalharemos as imagnes. Com a class="img-fluid, indica que ela terá 100% da larguratura do pai (fazendo referência a herança)"-->
+                            <figure class="figure">
+                                <img id="muda" src="../img/niver/02-fevereiro/socrates1502.jpg" class="figure-img img-fluid" alt="Imagem do rosto de Sócrates">
+                                <figcaption class="figure-caption"> 15/02 - Sócrates | <strong class="niver-departamento">CEO</strong>
+                                    <p>
+                                        <a class="niver-email" href="mailto:socrates@rsd.com.br?subject=Feliz Aniversário">socrates@rsd.com.br</a>
+                                    </p>
+                                </figcaption>
+                            <!-- Fechamento da tag figure -->
+                            </figure>
+                        <!-- Fechamento da div niver-box fevereiro -->
+                        </div>
+
+                        <div class="col-sm-6 col-md-4 col-lg-3 niver-box marco">
+                            <!--Nesta div, trabalharemos as imagnes. Com a class="img-fluid, indica que ela terá 100% da larguratura do pai (fazendo referência a herança)"-->
+                            <figure class="figure">
+                                <img id="muda" src="../img/niver/03-março/paulo2903.jpg" class="figure-img img-fluid" alt="Imagem do rosto de frente do Paulo Freire">
+                                <figcaption class="figure-caption"> 29/03 - Paulo Freire | <strong class="niver-departamento">Relações Internacionais</strong>
+                                    <p>
+                                        <a class="niver-email" href="mailto:paulofreire@rsd.com.br?subject=Feliz Aniversário">paulofreire@rsd.com.br</a>
+                                    </p>
+                                </figcaption>
+                            <!-- Fechamento da tag figure -->
+                            </figure>
+                        <!-- Fechamento da div niver-box marco -->
+                        </div>
+
+                        <div class="col-sm-6 col-md-4 col-lg-3 niver-box abril">
+                            <!--Nesta div, trabalharemos as imagnes. Com a class="img-fluid, indica que ela terá 100% da larguratura do pai (fazendo referência a herança)"-->
+                            <figure class="figure">
+                                <img id="muda" src="../img/niver/04-abril/monja0204.jpg" class="figure-img img-fluid" alt="Imagem da Monja Coen com as mãos unidas em frente ao corpo">
+                                <figcaption class="figure-caption"> 02/04 - Monja Coen | <strong class="niver-departamento">Departamento de Pessoas</strong>
+                                    <p>
+                                        <a class="niver-email" href="mailto:monjacoen@rsd.com.br?subject=Feliz Aniversário">monjacoen@rsd.com.br</a>
+                                    </p>
+                                </figcaption>
+                            <!-- Fechamento da tag figure -->
+                            </figure>
+                        <!-- Fechamento da div niver-box abril -->
+                        </div>
+
+                        <div class="col-sm-6 col-md-4 col-lg-3 niver-box maio">
+                            <!--Nesta div, trabalharemos as imagnes. Com a class="img-fluid, indica que ela terá 100% da larguratura do pai (fazendo referência a herança)"-->
+                            <figure class="figure">
+                                <img id="muda" src="../img/niver/05-maio/bill1205.jpg" class="figure-img img-fluid" alt="Bill Gates sorringo">
+                                <figcaption class="figure-caption"> 12/05 - Bill Gates | <strong class="niver-departamento">Financeiro</strong>
+                                    <p>
+                                        <a class="niver-email" href="mailto:billgates@rsd.com.br?subject=Feliz Aniversário">billgates@rsd.com.br</a>
+                                    </p>
+                                </figcaption>
+                            <!-- Fechamento da tag figure -->
+                            </figure>
+                        <!-- Fechamento da div niver-box maio -->
+                        </div>
+
+                        <div class="col-sm-6 col-md-4 col-lg-3 niver-box junho">
+                            <!--Nesta div, trabalharemos as imagnes. Com a class="img-fluid, indica que ela terá 100% da larguratura do pai (fazendo referência a herança)"-->
+                            <figure class="figure">
+                                <img id="muda" src="../img/niver/06-junho/elon2406.png" class="figure-img img-fluid" alt="Elon Musk de perfil, com terno preto">
+                                <figcaption class="figure-caption"> 24/06 - Elon Musk | <strong class="niver-departamento">Fiscal</strong>
+                                    <p>
+                                        <a class="niver-email" href="mailto:elonmusk@rsd.com.br?subject=Feliz Aniversário">elonmusk@rsd.com.br</a>
+                                    </p>
+                                </figcaption>
+                            <!-- Fechamento da tag figure -->
+                            </figure>
+                        <!-- Fechamento da div niver-box junho -->
+                        </div>
+
+                        <div class="col-sm-6 col-md-4 col-lg-3 niver-box julho">
+                            <!--Nesta div, trabalharemos as imagnes. Com a class="img-fluid, indica que ela terá 100% da larguratura do pai (fazendo referência a herança)"-->
+                            <figure class="figure">
+                                <img id="muda" src="../img/niver/07-julho/clarice1707.jpg" class="figure-img img-fluid" alt="Clarice Lispector olhando de lado">
+                                <figcaption class="figure-caption"> 09/01 - Clarice Lispector | <strong class="niver-departamento">TI</strong>
+                                    <p>
+                                        <a class="niver-email" href="mailto:claricelispector@rsd.com.br?subject=Feliz Aniversário">claricelispector@rsd.com.br</a>
+                                    </p>
+                                </figcaption>
+                            <!-- Fechamento da tag figure -->
+                            </figure>
+                        <!-- Fechamento da div niver-box julho -->
+                        </div>
+
+                        <div class="col-sm-6 col-md-4 col-lg-3 niver-box agosto">
+                            <!--Nesta div, trabalharemos as imagnes. Com a class="img-fluid, indica que ela terá 100% da larguratura do pai (fazendo referência a herança)"-->
+                            <figure class="figure">
+                                <img id="muda" src="../img/niver/08-agosto/ziraldo0108.jpg" class="figure-img img-fluid" alt="Ziraldo olhando de lado com a mão no queixo">
+                                <figcaption class="figure-caption"> 01/08 - Ziraldo | <strong class="niver-departamento">Marketing</strong>
+                                    <p>
+                                        <a class="niver-email" href="mailto:ziraldo@rsd.com.br?subject=Feliz Aniversário">ziraldo@rsd.com.br</a>
+                                    </p>
+                                </figcaption>
+                            <!-- Fechamento da tag figure -->
+                            </figure>
+                        <!-- Fechamento da div niver-box agosto -->
+                        </div>
+
+                        <div class="col-sm-6 col-md-4 col-lg-3 niver-box setembro">
+                            <!--Nesta div, trabalharemos as imagnes. Com a class="img-fluid, indica que ela terá 100% da larguratura do pai (fazendo referência a herança)"-->
+                            <figure class="figure">
+                                <img id="muda" src="../img/niver/09-setembro/gloria1509.png" class="figure-img img-fluid" alt="Gloria Maria sorrindo de perfil">
+                                <figcaption class="figure-caption"> 15/09 - Gloria Maria | <strong class="niver-departamento">Comunicação</strong>
+                                    <p>
+                                        <a class="niver-email" href="mailto:gloriamaria@rsd.com.br?subject=Feliz Aniversário">gloriamaria@rsd.com.br</a>
+                                    </p>
+                                </figcaption>
+                            <!-- Fechamento da tag figure -->
+                            </figure>
+                        <!-- Fechamento da div niver-box setembro -->
+                        </div>
+
+                        <div class="col-sm-6 col-md-4 col-lg-3 niver-box outubro">
+                            <!--Nesta div, trabalharemos as imagnes. Com a class="img-fluid, indica que ela terá 100% da larguratura do pai (fazendo referência a herança)"-->
+                            <figure class="figure">
+                                <img id="muda" src="../img/niver/10-outubro/antonio3010.png" class="figure-img img-fluid" alt="Antônio Silva sorrindo">
+                                <figcaption class="figure-caption"> 10/10 - Antônio Silva | <strong class="niver-departamento">Relacionamento com Cliente</strong>
+                                    <p>
+                                        <a class="niver-email" href="mailto:antoniosilva@rsd.com.br?subject=Feliz Aniversário">antoniosilva@rsd.com.br</a>
+                                    </p>
+                                </figcaption>
+                            <!-- Fechamento da tag figure -->
+                            </figure>
+                        <!-- Fechamento da div niver-box outubro -->
+                        </div>
+
+                        <div class="col-sm-6 col-md-4 col-lg-3 niver-box novembro">
+                            <!--Nesta div, trabalharemos as imagnes. Com a class="img-fluid, indica que ela terá 100% da larguratura do pai (fazendo referência a herança)"-->
+                            <figure class="figure">
+                                <img id="muda" src="../img/niver/11-novembro/raquel0811.jpg" class="figure-img img-fluid" alt="Raquel Silva sorrindo">
+                                <figcaption class="figure-caption"> 08/11 - Raquel Silva | <strong class="niver-departamento">Incorporação</strong>
+                                    <p>
+                                        <a class="niver-email" href="mailto:raquelsilva@rsd.com.br?subject=Feliz Aniversário">raquelsilva@rsd.com.br</a>
+                                    </p>
+                                </figcaption>
+                            <!-- Fechamento da tag figure -->
+                            </figure>
+                        <!-- Fechamento da div niver-box novembro -->
+                        </div>
+
+                        <div class="col-sm-6 col-md-4 col-lg-3 niver-box dezmebro">
+                            <!--Nesta div, trabalharemos as imagnes. Com a class="img-fluid, indica que ela terá 100% da larguratura do pai (fazendo referência a herança)"-->
+                            <figure class="figure">
+                                <img id="muda" src="../img/niver/12-dezembro/marisa2412.png" class="figure-img img-fluid" alt="Marisa leite com a mão no jeito, pensativa">
+                                <figcaption class="figure-caption"> 24/12 - Marisa Leite | <strong class="niver-departamento">Engenharia</strong>
+                                    <p>
+                                        <a class="niver-email" href="mailto:marisaleite@rsd.com.br?subject=Feliz Aniversário">marisaleite@rsd.com.br</a>
+                                    </p>
+                                </figcaption>
+                            <!-- Fechamento da tag figure -->
+                            </figure>
+                        <!-- Fechamento da div niver-box dezmebro -->
+                        </div>
+
+                        <!-- Fechamento da div row -->
+                    </div>
+                    <!-- Fechamento da div container dentro da niver-area -->
+                </div>
+                <!-- Fechamento da div com id="niver-area" -->
             </div>
             <!--Sobre o formulário de Contato-->
             <div id="contact-form">
@@ -366,8 +540,7 @@
                         <!--Respeitando uma determinada largura da tela.-->
                         <div class="col-md-6">
                             <!--Sendo uma classe do próprio bootstrap, fazendo a imagem se adaptar a esta div, não precisando se preocupar com largura e altura.-->
-                            <img class="img-fluid contact" src="../img/cadeado_digital_security.png"
-                                alt="Construção de valor, comunicação">
+                            <img class="img-fluid contact" src="../img/cadeado_digital_security.png" alt="Construção de valor, comunicação">
                         </div>
                         <!--Respeitando uma determinada largura da tela. Dividido os 12 em duas colunas com 6 linhas cada.-->
                         <div class="col-md-6">
@@ -379,13 +552,11 @@
                                 <div class="form-group">
                                     <label for="text">Assunto:</label>
                                     <!--Aqui utilizamos uma entrada no formulário do tipo texto e com o espaço reserado (placeholder)-->
-                                    <input class="form-control" type="text" name="assunto" id="assunto"
-                                        placeholder="Digite o assunto...">
+                                    <input class="form-control" type="text" name="assunto" id="assunto" placeholder="Digite o assunto...">
                                 </div>
                                 <div class="form-group">
                                     <label for="mensagem">Mensagem:</label>
-                                    <textarea class="form-control" name="mensagem" id="mensagem"
-                                        placeholder="Digite a mensagem..."></textarea>
+                                    <textarea class="form-control" name="mensagem" id="mensagem" placeholder="Digite a mensagem..."></textarea>
                                 </div>
                                 <!--Divisão para seleção de arquivos, para anexo do formulário
                                 <div class="form-group">
@@ -411,18 +582,12 @@
         <div id="footer-content">
             <p>Continue nos acompanhando nas mídias sociais</p>
             <ul class="socials">
-                <li><a href="https://www.facebook.com/" target="_blank"><i
-                            class="fa fa-facebook"></i></a></li>
-                <li><a href="https://www.linkedin.com/" target="_blank"><i
-                            class="fa fa-linkedin"></i></a></li>
-                <li><a href="https://instagram.com/" target="_blank"><i
-                            class="fa fa-instagram"></i></a></li>
-                <li><a href="https://www.youtube.com/" target="_blank"><i
-                            class="fa fa-youtube"></i></a></li>
-                <li><a href="https://br.pinterest.com/" target="_blank"><i
-                            class="fa fa-pinterest"></i></a></li>
-                <li><a href="https://www.tiktok.com/" target="_blank"><i
-                            class="fab fa-tiktok"></i></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="https://br.pinterest.com/" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+                <li><a href="https://www.tiktok.com/" target="_blank"><i class="fab fa-tiktok"></i></a></li>
             </ul>
         </div>
         <div id="footer-bottom">
