@@ -385,7 +385,7 @@
                             <!--Nesta div, trabalharemos as imagnes. Com a class="img-fluid, indica que ela terá 100% da larguratura do pai (fazendo referência a herança)"-->
                             <figure class="figure">
                                 <img id="muda" src="../img/niver/03-março/paulo2903.jpg" class="figure-img img-fluid" alt="Imagem do rosto de frente do Paulo Freire">
-                                <figcaption class="figure-caption"> 29/03 - Paulo Freire | <strong class="niver-departamento">Relações Internacionais</strong>
+                                <figcaption class="figure-caption"> 29/03 - Paulo Freire | <strong class="niver-departamento">RI</strong>
                                     <p>
                                         <a class="niver-email" href="mailto:paulofreire@rsd.com.br?subject=Feliz Aniversário">paulofreire@rsd.com.br</a>
                                     </p>
@@ -399,7 +399,7 @@
                             <!--Nesta div, trabalharemos as imagnes. Com a class="img-fluid, indica que ela terá 100% da larguratura do pai (fazendo referência a herança)"-->
                             <figure class="figure">
                                 <img id="muda" src="../img/niver/04-abril/monja0204.jpg" class="figure-img img-fluid" alt="Imagem da Monja Coen com as mãos unidas em frente ao corpo">
-                                <figcaption class="figure-caption"> 02/04 - Monja Coen | <strong class="niver-departamento">Departamento de Pessoas</strong>
+                                <figcaption class="figure-caption"> 02/04 - Monja Coen | <strong class="niver-departamento">DP</strong>
                                     <p>
                                         <a class="niver-email" href="mailto:monjacoen@rsd.com.br?subject=Feliz Aniversário">monjacoen@rsd.com.br</a>
                                     </p>
@@ -483,7 +483,7 @@
                             <!--Nesta div, trabalharemos as imagnes. Com a class="img-fluid, indica que ela terá 100% da larguratura do pai (fazendo referência a herança)"-->
                             <figure class="figure">
                                 <img id="muda" src="../img/niver/10-outubro/antonio3010.png" class="figure-img img-fluid" alt="Antônio Silva sorrindo">
-                                <figcaption class="figure-caption"> 10/10 - Antônio Silva | <strong class="niver-departamento">Relacionamento com Cliente</strong>
+                                <figcaption class="figure-caption"> 10/10 - Antônio Silva | <strong class="niver-departamento">Relacionamento</strong>
                                     <p>
                                         <a class="niver-email" href="mailto:antoniosilva@rsd.com.br?subject=Feliz Aniversário">antoniosilva@rsd.com.br</a>
                                     </p>
@@ -507,7 +507,7 @@
                         <!-- Fechamento da div niver-box novembro -->
                         </div>
 
-                        <div class="col-sm-6 col-md-4 col-lg-3 niver-box dezmebro">
+                        <div class="col-sm-6 col-md-4 col-lg-3 niver-box dezembro">
                             <!--Nesta div, trabalharemos as imagnes. Com a class="img-fluid, indica que ela terá 100% da larguratura do pai (fazendo referência a herança)"-->
                             <figure class="figure">
                                 <img id="muda" src="../img/niver/12-dezembro/marisa2412.png" class="figure-img img-fluid" alt="Marisa leite com a mão no jeito, pensativa">
@@ -598,6 +598,7 @@
     <script src="../js/scripts.js"></script>
     <script src="../js/formulario.js"></script>
     <script src="../js/parallax.js"></script>
+    <script src="../js/niver.js"></script>
 </body>
 
 </html>
