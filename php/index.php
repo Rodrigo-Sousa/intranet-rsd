@@ -299,7 +299,7 @@
                             <h4>ESG</h4>
                             <p>ESG é uma sigla para Environmental, Social and Governance (Ambiental, Social e
                                 Governança, em tradução livre).</p>
-                            <a class="link-area-importante" href="#" target="_blank">ESG</a>
+                            <a class="link-area-importante" href="#">ESG</a>
                         </div>
                         <div class="col-md-4 service-box">
                             <!--inserindo o ícone-->
