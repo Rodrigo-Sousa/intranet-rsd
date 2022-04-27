@@ -27,6 +27,7 @@ O projeto foi realizado após uma analise da necessidade que a empresa tinha em 
 - `PHP`
 - `MySQL`
 
+#### Referências 
 @matheusbattisti, no qual explica como utilizar o framework do `Bootstrap`, no canal do YouTube [Curso Bootstrap](https://www.youtube.com/watch?v=SmQMZ36hJJY&list=PLnDvRpP8Bnexu5wvxogy6N49_S5Xk8Cze).
 
 A tela de login, para verificarmos o que foi preenchido na parte do **Canal Confidencial**, construimos com o auxilio @celkecursos.
