@@ -4,7 +4,7 @@
   <img src="./arquivosReadme/logo-rsd-sem-fundo.png">
 </p>
 
-![Badge em Desenvolvimento](https://img.shields.io/badge/status-desenvolvendo-green)
+![Badge em Desenvolvimento](https://img.shields.io/badge/status-concluído-green)
 
 ## Sumário 
 
@@ -81,6 +81,12 @@ Esta parte foi desenvolvida 1 mês após a publicação da intranet e os colabor
 Descansando o mouse sobre uma imagem, ele aumenta a mesma para melhorar a visualização, ao retirar o cursor a imagem retorna ao seu tamanho padrão.
 
 ![Aniveresariantes do mês](./arquivosReadme/aniversariantes.png)
+
+### Cores temáticas
+
+Estilizado o [layout](css/styles-outubro.css) da página no mês de Outubro Rosa, para o mês de conscientização sobre a prevenção e o diagnóstico precoce sobre o câncer de mama e de colo de útero.
+
+
 
 ### Canal Confidencial
 
