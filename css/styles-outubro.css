@@ -1,0 +1,535 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+/*Estilos Gerais da página*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*a classe para fazer as linhas do projeto. Tiraremos a margem, pois ela começa como negativa e para a gente não é útil.*/
+.row{
+    margin: 0;
+}
+
+/*Barra de navegação*/
+header, .navbar{
+    background-color: #fe7f9c;
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 100px;
+}
+#logo:hover{
+    animation: bounce 1s;
+}
+/*estilo do logo*/
+
+.navbar-brand{
+    padding: 0;
+    color: #fff;
+
+}
+/*ao passar o mouse em cima*/
+.navbar-brand:hover{
+    color: #fff;
+}
+/*estilizando os estilos da navbar.*/
+#navbar-links a{
+    color: #fff;
+}
+/*Efeito ao passar o mouse nos links do menu*/
+#navbar-links a:hover{
+    color: #e4728c;
+        
+}
+/*Definindo tamanhos para os paddings dos links diferentes dos que o Bootstrap define
+Sendo unidades de medidas que se adaptam de acordo com a página. Trocando a fonte root da página pelo que definimos.*/
+.navbar-expand-lg .navbar-nav .navbar-link {
+    padding: 1rem .8rem;
+
+}
+/* Tirando o espaçamento do input na div do dropdown-menu */
+.navbar-nav .dropdown-menu {
+    /* espaçamento interno 0 */
+    padding: 0px;
+    
+}
+/* Novo DropdownMenu with Search */
+/* Dropdown Button */
+.dropbtn {
+    background-color: #fe7f9c;
+    color: #fff;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+  }
+  /* Novo DropdownMenu with Search */
+/* Estilando o scroll do dropdown, com a largura máxina e o atributo de transbordar no eixo y sendo auto, ele mesmo demilitando. */
+.dorpdown-contant-wrapper{
+    max-height: 461px;
+    overflow-y: auto;
+}
+/* Dropdown button ao passar o cursor do mouse em cima dos elementos*/
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #fe98af;
+  }
+  
+  /* A caixa responsável pelo campo de busca */
+  #minhaPesquisa {
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    font-size: absolute;
+    padding: 10px 15px 10px 20px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    width: 640px;
+    height: 40px;
+    /* retirar a borda da seleção, quando clicado */
+    outline: none;
+  }
+/* escontendo o que passar da caixa dentro do dropdwon contant */
+.dropdown-menu {
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+  /* O campo de busca quando recebe um foco (clicado), como ele se comporta */
+  #myInput:focus {outline: 3px solid #fe98af;}
+  /* Estilizando a largura máxima do id="meuDropdown" */
+  #meuDropdown {
+      max-width: 400px;
+  }
+  /* Sendo a div necessária para poder sustentar o container do dropdown, o menu suspenso*/
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Conteúdo suspenso, estnado oculto por padrão */
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fe7f9c;
+    min-width: 230px;
+    border: 1px solid #cb657c;
+    z-index: 1;
+  }
+  
+  /* Os links inseridos no dropdown */
+  .dropdown-menu a {
+    color: #fff;
+    padding: .25rem 1.5rem;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Mudar a cor do dropdown links quando passado o mouse em cima hover */
+  .dropdown-menu a:hover {background-color: #fff}
+  
+  /* Mostrando o menu, utilizando JS, quando o usuáiro clica no botã, motra o menu de forma dropdown */
+  .show {display:block;}
+
+
+/*Mudando a cor do dropdwon e a caixa de borda dele.*/
+#dropdown-menu-link, #dropdown-form-padroes, #dropdown-pasta-empresa, #dropdown-nova-marca {
+    background-color: #fe7f9c;
+    border-color: #fe7f9c;
+    
+}
+
+/*Mudando a cor do dropdwon-menu e a cor da letra*/
+.dropdown-menu{
+    background-color: #e4728c;
+    color: #fff;
+    border-radius: 15px;
+    border: 1px solid #cb657c;    
+}
+/*customizando a classe container e com o espaçamento interno superiror e infeiror de 70px e 0 nas laterais.*/
+.container{
+    padding: 70px 0;
+
+}
+/*Slider - Carousel*/
+.container-fluid{
+    padding: 0;
+    margin-top: 55px;
+}
+/*Pois ele está passando na página, será ajustado aqui.
+Com altura de 90vh, simulando 90% da tela.*/
+#mainSlider .carousel-inner, #mainSlider .carousel-item, #mainSlider .carousel-item img{
+    max-width: 100%;
+    max-height: 500px;
+
+}
+/*Alterar o título*/
+#mainSlider .carousel-caption{
+    top: 30%;
+}
+/*Estilizando o h2*/
+#mainSlider .carousel-caption h2{
+    font-size: 50px;
+    /*margem para descolar do parágrafo.*/
+    margin-bottom: 30px;
+}
+#mainSlider .carousel-caption p{
+    font-size: 22px;
+    font-weight: 300px;
+    /*margem para descolar do botão*/
+    margin-bottom: 100px;
+    color: #fff;
+}
+/*customizando o botão do carousel*/
+.main-btn{
+    background-color: #65DAF9;
+    color: #fff;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    /*descolar o texto da extreminade do botão*/
+    padding: 10px 20px;
+    /*arredondar borda do botão*/
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+.main-btn:hover{
+    /*tirar o link de sublinhado*/
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+    border-color: #65DAF9;
+}
+/*Botão de destaque contidos na área de arquivos importantes*/
+.btn-area-arquivos {
+    background-color: #fe7f9c;
+    color: #fff;  
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+/*Estilizando o item de destaque ao clicar, para aparecer no menu o destaque*/
+.btn-area-arquivos:hover {
+    text-decoration: none;
+    color: #fe7f9c;
+    background-color: transparent;
+    border-color: #fe7f9c;
+}
+/*Botão - Submit formulário*/
+.main-btn-submit{
+    background-color: #fe7f9c;
+    color: #fff;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    /*descolar o texto da extreminade do botão*/
+    padding: 10px 20px;
+    /*arredondar borda do botão*/
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+.main-btn-submit:hover{
+    /*tirar o link de sublinhado*/
+    text-decoration: none;
+    color: #cb657c;
+    background-color: transparent;
+    border-color: #fe7f9c;
+}
+/*Mexer no banco do carousel*/
+.carousel-indicators .active{
+    background-color: #fe7f9c;
+}
+/* Customizando os parágrafos do Identificador data-area */
+#data-area p {
+    color: #ffffff;
+    font-size: 14px;
+}
+/* A cor do h3 contido no identificarod #data-area. */
+#data-area h3 {
+    color: #ffffff;
+}
+/* Estilizando todos os h4 contidos no identificador #data-area. */
+#data-area * h4 {
+    color: #ffffff;
+    text-align: center;
+}
+/*Definindo os parágrafos e as listas*/
+p, li{
+    color: #3D3D3D;
+    font-size: 14px;
+}
+/*Sobre  a empresa. 
+Codificando esta parte do site*/
+#about-area{
+    background-color: #f9f9f9;
+}
+/*Estilizando o título*/
+.main-title{
+    color: #444;
+    /*só tendo uma margem em baixo*/
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+/*Usando pseudo elemento para inserir um underline*/
+.main-title::after{
+    /*borda em baixo, aqui o conteúdo ficará vazio, pois não há conteúdo para ser incluido*/
+    content:"";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+/*Estilizando a classe about-title*/
+.about-title{
+    font-size: 17px;
+    color: #444;
+    /*letras aparecerão em caixa alta*/
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+/*Mexendo na lista*/
+#about-list{
+    /*perdendo o estilo padrao da lista*/
+    list-style: none;
+    padding-left: 0;
+}
+/*agora no li separaremos os itens uns dos outros*/
+#about-list li{
+    line-height: 30px;
+}
+/*Estilizando o ícone que foi colocada próximo ao item da lista*/
+#about-list i{
+    color: #fe8ba5;
+    margin-right: 15px;
+}
+/*Serviços
+Alinhando todo o conteúdo ao centro, adicionando uma margem para descolar uma caixa da outra*/
+.service-box{
+    text-align: center;
+    margin-bottom: 50px;
+}
+/*Informar que os ícones e o h4 terão uma transição de 5 segundos*/
+.service-box i, h4{
+    transition: .5s;
+}
+/*Mudando a cor do título e do ícone com hover*/
+.service-box i{
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #b1586d;
+}
+
+.service-box h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #b1586d;
+}
+/*só será pego o elemento i e h4 que estão dentro da classe .service-box, ao passar o mouse irá mudar a cor */
+.service-box:hover > i, .service-box:hover > h4 {
+    color: #fe7f9c;
+    animation: bounce 1s;
+}
+.link-area-importante  {
+    color: #fe7f9c;
+    text-decoration: none;
+    background-color: transparent;
+}
+.link-area-importante:hover {
+    color: #b1586d;
+    text-decoration: none;
+    background-color: transparent;
+}
+#filter-btn-box {
+    /*descolando a margem do botão e centralizando o texto.*/
+    margin-bottom: 50px;
+    text-align: center;
+}
+#niver-title {
+    color: #fff;
+    background-color: #e4728c;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 30px;
+}
+/*Estilizando o botão com id niver-area e a classe filter-btn*/
+#niver-area .filter-btn {
+    color: #e4728c;
+    border: 1px solid #b1586d;
+    background-color: transparent;
+    text-transform: none;
+    margin: 0 0 5px 25px;
+    min-width: 100px;
+    height: 30px;
+    line-height: 20px;
+    padding: 0 20px;
+    outline: none;
+}
+/*Estilizando o hover e o active no botão*/
+
+#niver-area .filter-btn.active, #niver-area .filter-btn:hover {
+    color: #fff;
+    background-color: #fe7f9c;
+    border-color: none;
+    margin: 8px;
+}
+#site-rsd {
+    text-align: center;
+}
+/* Aplicando animação nos elementos contidos no ID=niver-area */
+.niver-box{
+    /* A transição que irá se aplicado */
+    transition: .5s;
+    padding-top: 2px;
+}
+/* Aplicando a animação nos elementos filhos do ID=niver-area */
+.niver-box:hover {
+    /* Chamando a animação @keyframes nome da mesma e o tempo que ela irá executar */
+    transform:scale(1.1);
+    
+}
+/* Modigicando a classe .figure */
+.figure {
+    /* Borda de 3px solida e na cor roxa */
+    border: 3px solid #fe98af;
+    /* Arredondando a borda*/
+    border-radius: 6px;
+}
+/* Estilizando a .figure-caption */
+.figure-caption {
+    /* Texto ao centro da imagem */
+    text-align: center;
+}
+.niver-email {
+    color: #cb657c;
+}
+.niver-departamento {
+    color: #e4728c;
+}
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    88% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10)px;
+    }
+}
+/* Fazer rodar os elementos */
+@keyframes spin {
+    /* A partir de */
+    from {
+        /* Começando em 0deg */
+        -webkit-transform:rotate(0deg);
+    }
+    /* Para */
+    to {
+        /* Terminando a rotação em 360deg */
+        -webkit-transform:rotate(360deg);
+        }
+}
+/* Aumentar tamanho da imagem ao passar o mouse */
+@keyframes scales {
+    /* A partir de  */
+    from {
+        /* Começando em 1 */
+        -webkit-transform: scale(1);
+    }
+    /* Para */
+    to{
+        /* Terminando em 1.1 */
+        transition-duration: 1s;
+        transform-origin: 0% 0%;
+    }
+
+}
+#contact-form{
+    background-color: #fef2f5;
+}
+.contact {
+    border-radius: 30px;
+}
+/* Estilizando o rodapé - footler */
+footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fe98af;;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    
+}
+/* A cor do parágrafo contido dentro do ID footer-bottom p */
+#footer-bottom p, #footer-content p{
+    color: #fff;
+    max-width: 1200px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+/*Estilizando o ID footer-content*/
+#footer-content, #footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+/* Estilizando os itens da classe social, centralizando, diranto o estilo padrão */
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 50px;
+}
+/* Na classe socials e nas listas, margem de 0 superior e inferior 0 e nas laterais em 10px */
+.socials li {
+    margin: 0 10px;
+}
+/* Estilizando os linkes contidos dentro da classe a */
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+/* As fontes e a transição nos links dentro dos links, com tamanho de 1.1rem e com transição suave de .1s */
+.socials a i {
+    font-size: 1.1rem;
+    transition: color .1s ease;
+}
+/* Cor ao passar o mouse sobre o link contido na classe socials */
+.socials a:hover{
+    color: #984c5d;
+}
+/* Cor de fundo do ID footer-bottom */
+#footer-bottom {
+    background: #fe7f9c;
+
+}
+/* Estilizando as palavras contidas dentro do p da footer-bottom */
+#footer-bottom p {
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
