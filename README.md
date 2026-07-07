@@ -24,6 +24,7 @@
 * [Referências](#referências)
 
 ---
+[!WARNING] **Nota:** Este repositório é uma versão de portfólio, recriada a partir de um projeto real desenvolvido por mim em ambiente corporativo. Nomes, dados e identidade da empresa foram substituídos por conteúdo fictício (RSD) para fins de demostração técnica e de estudo. 
 
 # Descrição do projeto
 
